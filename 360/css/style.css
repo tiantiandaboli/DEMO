@@ -17,10 +17,10 @@
 	border-top: 1px solid #BCBCBC;
 }
 .round{
-	border-radius: 50px;
+	border-radius: 75px;
 	border: 1px solid #CCCCCD;
-	width: 100px;
-	height: 100px;
+	width: 150px;
+	height: 150px;
 	margin: 10px;
 	background: white;
 
@@ -38,7 +38,7 @@
 }
 table{
 	margin:20px auto;
-	border-spacing: 150px;
+	border-spacing: 200px;
 }
 #center p{
 	font-size: 30px;
