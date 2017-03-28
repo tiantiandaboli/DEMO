@@ -6,8 +6,8 @@
 #top{
 	background: #F8F8F8;
 	text-align: center;
-	font-size: 20px;
-	padding: 1%;
+	font-size: 30px;
+	padding: 2%;
 }
 #main{
 	margin: 0 auto;
@@ -28,7 +28,7 @@
 #buttom{
 	background-color : #F0F0F2;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	padding: 50px 0;
 	float: left;
 	width: 100%;
@@ -41,5 +41,6 @@ table{
 	border-spacing: 150px;
 }
 #center p{
+	font-size: 30px;
 	text-align: center;
 }
