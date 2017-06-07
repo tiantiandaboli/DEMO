@@ -1,0 +1,273 @@
+/********main**********/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/**********top************/
+#top{
+	width: 100%;
+	height: 46px;
+	background-color: #0662Bf;
+	margin: 0;
+	overflow: hidden;
+}
+#logo{
+	margin: 5px auto;
+	float: left;
+	width: 61px;
+	height: 31px;
+}
+#readin{
+	height: 30px;
+	line-height: 30px;
+	margin: 8px 78px 0px 69px;
+	background-color: #E1EAF2;
+	border-radius: 5px;
+	border: none;
+}
+#readin_in{
+	height: 25px;
+	border:none;
+	background-color: #E1EAF2;
+	color: #A9A9A9;
+	outline: none;
+	margin-left: 5px;
+	width: calc(100% - 25px);
+}
+#readin_pu{
+	float: right;
+	width: 15px;
+	height: 18px;
+	background-image: url('../pic/sprites.png');
+	background-position: -238px -58px;
+	background-color: transparent;
+	border: none;
+	margin: 5px 5px 0 0 ;
+}
+#ques{
+	background-color: #0D76E1;
+	border:#0D76E1 1px solid;
+	color: white;
+	width: 62px;
+	height: 32px;
+	float: right;
+	margin: 6px 8px;	
+}
+/***********menu****************/
+#menu{
+	width: 100%;
+	height: 30px;
+	float: left;
+	background-color: #F3F3F3;
+	border-bottom: #E1E1E1 1px solid;
+}
+#menu li{
+	float: left;
+	list-style: none;
+	height: 30px;
+	width: 20%;
+	text-align: center;
+	line-height: 30px;
+}
+#menu a{
+	text-decoration: none;
+	color: black;	
+}
+/*********news************/
+.news_from {
+	float: left;
+}
+#news_nav{
+	width: 98%;
+	height: 40px;
+	float: left;
+	text-align: center;
+	font-size: 18px;
+	margin: 0px 1%;
+}
+#news_nav *{
+	float: left;
+	line-height: 40px;
+}
+.a_list{
+	width: 28px;
+	height: 28px;
+	float: left;
+	background-image: url('../pic/sprites.png');
+	background-position: -65px -77px;
+}
+.a_set{
+	width: 25px;
+	height: 25px;
+	margin-top: 10px;
+	float: left;
+	background-image: url('../pic/sprites.png');
+	background-position: -82px -145px;
+}
+.a_add{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 20px;
+	background-image: url('../pic/sprites.png');
+	background-position: -92px -16px;
+}
+.a_rev{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 20px;
+	background-image: url('../pic/sprites.png');
+	background-position: -25px -16px;	
+}
+.a_top{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-image: url('../pic/sprites.png');
+	background-position: -108px -20px;
+	float: right;
+}
+.a_buttom{
+	display: block;
+	width: 10px;
+	height: 10px;
+	float: right;
+	background-image: url('../pic/sprites.png');
+	background-position: -121px -20px;	
+}
+.grey_line{
+	width: 98%;
+	height: 1px;
+	background-color: #E1E1E1;
+	float: left;
+	margin: 0px 1%;
+}
+.news{
+	margin: 1% 1% 0 1%;
+	float: left;
+}
+.news_title{
+	color: #0662Bf;
+	font-weight: 600;
+}
+.news p{
+	margin: 0.5rem;
+}
+.news_from{
+	color: #999999;
+	margin: 0 5px;
+}
+.new_main{
+	overflow:auto; 
+	display:inline-block;
+}
+.news_main img{
+	border-radius: 5px;
+	width: 200px;
+	height: 110px;
+	margin: 3px;
+	float: left;
+}
+.news_main p{
+	margin: 1%;
+	float: left;
+	height: 15%;
+}
+.news_num{
+	float: left;
+	margin: 3px 3px 1% 3px;
+}
+.news_block{
+    height: 20px;
+    background-color: #E1EFF7;
+    display: block;
+    float: left;
+    border-radius: 3px;
+    margin:0px;
+    padding: 2px 3px;
+}
+.news_num img{
+	position:absolute;
+	float: left;
+	clip: rect(0px 18px 30px 0px);
+}
+/*******buttom*********/
+#buttom{
+	float: left;
+	width: 100%;
+}
+#but_more{
+	width:98%;
+	height: 30px;
+	border-radius: 5px;
+	background: linear-gradient(to bottom, #F7F7F8, #D6D6D6);
+	border: 1px solid #C2C2C2;
+	color:  #666;
+	margin: 5px auto;
+	text-align: center;
+	line-height: 30px;
+}
+#buttom ul{
+	margin: 1%;
+	list-style-type: none;
+}
+#buttom ul li{
+	margin: 1% 0;
+}
+.but_list{
+	display: block;
+	float: left;
+	width: 15px;
+	height: 20px;
+	margin:0 5px;
+	background-image: url('../pic/sprites.png');	
+}
+.but_list2{
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin:0 5px;
+	background-image: url('../pic/sprites.png');	
+}
+.b_cao{
+	background-position: -150px -1px;	
+}
+.b_shou{
+	background-position: -165px -1px;		
+}
+.b_guan{
+	background-position: -180px -1px;	
+}
+.b_yao{
+	background-position: -197px -1px;	
+}
+.b_hua{
+	background-position: -232px -1px;	
+}
+.b_gong{
+	background-position: -267px  0px;	
+}
+.b_she{
+	background-position: -265px -85px;	
+}
+.b_xie{
+	background-position: 0px 25px;
+}
+.author{
+	text-align: center;
+	margin:  0  0 2%  0;
+	font-size: 13px;
+	display: block;
+}
