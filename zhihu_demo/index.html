@@ -17,11 +17,31 @@
 	</div>
 <!---menu-->
 	<div id="menu">
-		<li><a href="#" title="">首页</a></li>
-		<li><a href="" title="">话题</a></li>
-		<li><a href="" title="">发现</a></li>
-		<li><a href="" title="">消息</a></li>
-		<li><a href="" title="">我</a></li>
+		<a href="#" title=""><li>首页</li></a>
+		<a href="" title=""><li>话题</li></a>
+		<a href="" title=""><li>发现</li></a>
+		<a href="" title=""><li>消息</li></a>
+		<a href="" title=""><li>我</li></a>
+	</div>
+<!--topic-->	
+	<div id="topic">
+		<div id="topic_title">
+		<i></i>
+		<p>已关注的话题动态</p>
+		<a href="#">共关注10个话题设置</a>
+		</div>
+		<div class="grey_line"></div>
+		<ul>
+			<a href=""><li>互联网</li></a>
+			<a href=""><li>移动互联网</li></a>
+			<a href=""><li>网页设计</li></a>
+			<a href=""><li>用户体验</li></a>
+			<a href=""><li>前端开发</li></a>
+			<a href=""><li>CSS</li></a>
+			<a href=""><li>HTML5</li></a>
+			<a href=""><li>JavaScript</li></a>
+		</ul>
+		<div class="grey_line"></div>
 	</div>
 <!--main-->
 	<div id="main">
@@ -122,7 +142,31 @@
 			<li><a href="" title=""><i class="but_list2 b_xie"></i>写文章</a></li>
 		</ul>
 	</div>
-	<!--<div class="author">Created By zhanglei, Under MIT License</div>-->
+	<div class="author">Created By zhanglei, Under MIT License</div>
+<!--grey and window-->
+	<div id="grey_screen">
+		<div id="que_ask" style="display: none;">
+			<div id="que_title">
+				<p>提问</p>
+				<a href="#"><i></i></a>
+			</div>
+			<div id="que_main">
+				<textarea  class="que_area" cols="30" rows="5" placeholder="写下你的问题"></textarea>
+				<p>问题说明可选</p>
+				<textarea  class="que_area" cols="30" rows="5" placeholder="问题背景、条件等详细信息"></textarea>
+				<p>话题分类</p>
+				<div id="que_select">
+					<i></i>
+					<input type="text" placeholder="搜索话题">
+				</div>
+				<div id="que_submit">
+					<input type="checkbox">匿名
+					<a href="#"><input type="button" id="que_submit_but" value="发布"></a>
+					<a href="#">取消</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript" src="js/zhihu.js"></script>
 </body>
 </html>

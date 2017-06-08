@@ -40,3 +40,22 @@ function widthreduce(){
         clearInterval(width_reduce);
     }
 }
+/***********question**********************/
+var ques_main = document.getElementById('ques');
+var que_div = document.getElementById('que_ask');
+var que_grey = document.getElementById('grey_screen');
+ques_main.onclick = function(){
+    que_div.style.display = "block";
+    que_grey.style.display = "block";
+}
+var ques_close = document.getElementById('que_title').getElementsByTagName('i')[0];
+var ques_cance = document.getElementById('que_submit').getElementsByTagName('a')[1];
+    console.log(ques_close);
+ques_close.onclick = function(){
+    que_div.style.display = "none";
+    que_grey.style.display = "none";      
+}
+ques_cance.onclick = function(){
+	que_div.style.display = "none";
+	que_grey.style.display = "none";
+}
