@@ -13,6 +13,9 @@ a{
 	display: block;
 	clear: both;
 }
+li{
+	list-style: none;
+}
 /**********top************/
 #top{
 	width: 100%;
@@ -64,14 +67,14 @@ a{
 	margin: 6px 8px;	
 }
 /***********menu****************/
-#menu{
+.menu{
 	width: 100%;
 	height: 30px;
 	float: left;
 	background-color: #F3F3F3;
 	border-bottom: #E1E1E1 1px solid;
 }
-#menu li{
+.menu_li{
 	float: left;
 	list-style: none;
 	height: 30px;
@@ -79,7 +82,7 @@ a{
 	text-align: center;
 	line-height: 30px;
 }
-#menu a{
+.menu a{
 	text-decoration: none;
 	color: black;	
 }
@@ -147,11 +150,11 @@ a{
 	background-position: -121px -20px;	
 }
 .grey_line{
-	width: 98%;
+	width: 99%;
 	height: 1px;
 	background-color: #E1E1E1;
 	float: left;
-	margin: 0px 1%;
+	margin: 0px 0.1%;
 }
 .news{
 	margin: 1% 1% 0 1%;
@@ -415,4 +418,127 @@ a{
 	color: #259;
 	margin: 10px 5px;
 	padding: 2px 10px;
+}
+/*****************personal message********************/
+.person_menu{
+	position: absolute;
+	float: right;
+	width: 120px;
+	height: 124px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	right: 0;
+	display: none;
+	top: 77px;
+}
+.person_menu a li{
+	float: right;
+	width: 120px;
+	height: 30px;
+	background: white;
+	font-size: 15px;
+	text-align: center;
+}
+/************************message***********************/
+.message{
+	width: 100%;
+	height: 305px;
+	background-color: white;
+	position: absolute;
+	margin: 0 auto;
+	top: 80px;
+}
+.message_title{
+	height: 30px;
+}
+.message_title li{
+	width: 33%;
+	border-bottom: 1px solid #DFDFDF;
+	height: 30px;
+	float: left;
+}
+.message_title li:nth-child(2){
+	border: 1px solid #DFDFDF;
+	border-top: none;
+}
+.message_icon{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-image: url('../pic/sprites.png');
+	margin: 0 auto;	
+	margin-top: 5px;
+}
+.message1{
+	background-position: -92px -85px;
+}
+.message2{
+	background-position: -124px -85px;
+}
+.message3{
+	background-position: -152px -85px;
+}
+.message_list li{
+	height: 40px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	line-height: 40px;
+	margin-left: 15px;
+}
+.message_list li a{
+	color: #0661BD;
+	margin: 0 5px;
+}
+.message_people{
+	width: 100%;
+	height: 305px;
+	background-color: white;
+	position: absolute;
+	margin: 0 auto;
+	top: 32px;	
+}
+.message_people p{
+	text-align: center;
+	margin-top: 150px;
+	color: #DFDFDF;
+}
+.message_fav{
+	width: 100%;
+	height: 305px;
+}
+.message_fav li{
+	height: 40px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	line-height: 40px;
+	margin-left: 15px;	
+}
+.message_set{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background-image: url('../pic/sprites.png');
+	background-position: -50px -143px;	
+	margin:0px 5px 0  10px;	
+}
+.message_buttom{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 280px;
+}
+.message_buttom p{
+	color: #9C9C9C;
+}
+.message_more{
+	display: block;
+	width: 20px;
+	height: 20px;
+	float: right;
+	background-image: url('../pic/sprites.png');
+	background-position: -50px -163px;	
+	margin:0px 5px 0  10px;	
 }

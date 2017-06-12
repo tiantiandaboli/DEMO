@@ -15,16 +15,63 @@
 			<input type="submit" id="readin_pu" value>
 		</form>
 	</div>
+<!--top end-->
 <!---menu-->
-	<div id="menu">
-		<a href="#" title=""><li>首页</li></a>
-		<a href="" title=""><li>话题</li></a>
-		<a href="" title=""><li>发现</li></a>
-		<a href="" title=""><li>消息</li></a>
-		<a href="" title=""><li>我</li></a>
+	<div class="menu">
+		<a href="" class="menu_li"><li>首页</li></a>
+<!--message page-->
+		<div class="message" style="display: none;">
+			<ul class="message_title">
+				<li><i class="message_icon message1"></i></li>
+				<li><i class="message_icon message2"></i></li>
+				<li><i class="message_icon message3"></i></li>
+			</ul>
+			<ul class="message_list">
+				<li><a href="">周宁奕</a>回答了<a>能利用爬虫技术做到哪些很酷很有趣很有用的事情？</a></li>
+				<li class="grey_line" style="height: 1px;"></li>
+				<li>周宁奕 回复了你在 能利用爬虫技术做到哪些很酷很有趣很有用的事情？ 中 周宁奕 的回答下的评论</li>
+				<li class="grey_line" style="height: 1px;"></li>
+				<li>haochuan 在 _haochuan的RandomNotes 中发布了 当我们说软件工程师的时候我们在说什么</li>
+				<li class="grey_line" style="height: 1px;"></li>
+				<li>康石石 回答了 有哪些好的网站，让人第一眼看了就怦然心动，流连忘返？</li>
+				<li class="grey_line" style="height: 1px;"></li>
+				<li>康石石 回复了你在 有哪些好的网站，让人第一眼看了就怦然心动，流连忘返？ 中 康石石 的回答下的评论</li>
+				<li class="grey_line" style="height: 1px;"></li>
+				<li>张科洋 回答了 关于 JavaScript 的好书有哪些？</li>
+				<li class="grey_line" style="height: 1px;"></li>
+			</ul>
+			<div class="message_people" style="display: none;">
+				<p>有人关注你会显示在这里</p>
+			</div>
+			<ul class="message_fav" style="display: none;">
+				<li>获得 1 次感谢：如何写产品交互文档，一份好的交互文档应该包括哪些方面内容？ 来自 张科洋</li>
+			</ul>
+			<div class="message_buttom">
+				<a href="#"><i class="message_set"></i><p style="float: left;">设置</p></a>
+				<a href="#"><i class="message_more"></i><p style="float: right;">查看全部</p></a>
+				<p class="grey_line" style="height: 1px;"></p>
+			</div>
+		</div>
+<!--message page end-->
+		<a href="#" id="topic_page" class="menu_li"><li>话题</li></a>
+		<a href="#" title="" class="menu_li"><li>发现</li></a>
+		<a href="#" id="message_page" class="menu_li"><li>消息</li></a>
+		<a href="#"><li id="me_page" class="menu_li">我</li></a>
+<!--person page-->
+    	<ul class="person_menu">
+			<a href="#"><li>我的主页</li></a>
+			<li class="grey_line" style="width: 95%;height: 1px"></li>
+			<a href="#"><li>私信</li></a>
+			<li class="grey_line" style="width: 95%;height: 1px"></li>
+			<a href="#"><li>设置</li></a>
+			<li class="grey_line" style="width: 95%;height: 1px"></li>
+			<a href="#"><li>退出</li></a>
+		</ul>
+<!--person page end-->
 	</div>
+<!--menu end-->
 <!--topic-->	
-	<div id="topic">
+	<div id="topic" style="display: none;">
 		<div id="topic_title">
 		<i></i>
 		<p>已关注的话题动态</p>
@@ -32,17 +79,18 @@
 		</div>
 		<div class="grey_line"></div>
 		<ul>
-			<a href=""><li>互联网</li></a>
-			<a href=""><li>移动互联网</li></a>
-			<a href=""><li>网页设计</li></a>
-			<a href=""><li>用户体验</li></a>
-			<a href=""><li>前端开发</li></a>
-			<a href=""><li>CSS</li></a>
-			<a href=""><li>HTML5</li></a>
-			<a href=""><li>JavaScript</li></a>
+			<a href="#"><li>互联网</li></a>
+			<a href="#"><li>移动互联网</li></a>
+			<a href="#"><li>网页设计</li></a>
+			<a href="#"><li>用户体验</li></a>
+			<a href="#"><li>前端开发</li></a>
+			<a href="#"><li>CSS</li></a>
+			<a href="#"><li>HTML5</li></a>
+			<a href="#"><li>JavaScript</li></a>
 		</ul>
 		<div class="grey_line"></div>
 	</div>
+<!--topic end-->
 <!--main-->
 	<div id="main">
 		<div id="news_nav" align="center">
@@ -125,6 +173,8 @@
 		    </div>
 		</div>
 	</div>
+<!--main end-->
+<!--buttom -->
 	<div id="buttom">
 		<div id="but_more">更多</div>
 		<ul>
@@ -142,6 +192,7 @@
 			<li><a href="" title=""><i class="but_list2 b_xie"></i>写文章</a></li>
 		</ul>
 	</div>
+<!--buttom end-->
 	<div class="author">Created By zhanglei, Under MIT License</div>
 <!--grey and window-->
 	<div id="grey_screen">
@@ -167,6 +218,7 @@
 			</div>
 		</div>
 	</div>
+<!--window end-->
 	<script type="text/javascript" src="js/zhihu.js"></script>
 </body>
 </html>
